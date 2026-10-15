@@ -18,22 +18,27 @@ function App(){
     <Produto
     nome="Teclado mecânico"
     descricao="Teclado com iluminação RGB"
-    valor={250.00}/>
+    valor={250.00}
+    disponivel={true}/>
+    
     <Produto 
 
     nome="Mouse RGB"
     descricao="Mouse RGB leve"
-    valor={100}/>
+    valor={100}
+    disponivel={false}/>
     
     <Produto
     nome="Monitor 120HZ"
     descricao="Monitor 120HZ curvo"
-    valor={1000}/>
+    valor={1000}
+    disponivel={false}/>
 
 <Produto
 nome="MousePad darksouls"
 descricao="MousePad do jogo Darksouls"
-valor={50}/>
+valor={50}
+disponivel={true}/>
     </>
   )
 }

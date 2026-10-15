@@ -1,11 +1,11 @@
-function Produto(props, disponivel){
+function Produto(props){
     return(
 <>
 <h1>Nome: {props.nome}</h1>
 <h2>Descrição:{props.descricao}</h2>
 <h3>Valor:{props.valor}</h3>
 <p>
-{disponivel ? "Disponível : Indisponível"}
+{props.disponivel ? "Disponível" : "Indisponível"}
 
 </p>
 <button>Comprar</button>
